@@ -1,0 +1,16 @@
+object Versions {
+    const val coreKtx = "1.12.0"
+    const val lifecycleRuntimeKtx = "2.6.2"
+    const val activityCompose = "1.7.2"
+    const val composeBom = "2023.03.00"
+    const val appCompact = "1.6.1"
+    const val material = "1.9.0"
+    const val hilt ="2.48"
+    const val hiltCompiler = "1.0.0-alpha01"
+    const val hiltNavigationCompose = "1.0.0"
+    const val retrofitVersion ="2.9.0"
+    const val okhttpBom ="4.10.0"
+    const val moshi ="1.14.0"
+    const val moshiConverter="2.9.0"
+    const val coroutines="1.3.9"
+}
