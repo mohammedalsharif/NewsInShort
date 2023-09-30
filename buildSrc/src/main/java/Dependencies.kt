@@ -10,10 +10,14 @@ object Dependencies {
     val composeUiGraphics by lazy { "androidx.compose.ui:ui-graphics" }
     val toolingPreview by lazy { "androidx.compose.ui:ui-tooling-preview" }
     val composeMaterial3 by lazy { "androidx.compose.material3:material3" }
+
     val hiltAndroid by lazy { "com.google.dagger:hilt-android:${Versions.hilt}" }
-    val hiltAndroidCompiler by lazy { "com.google.dagger:hilt-android-compiler:${Versions.hiltCompiler}" }
+    val hiltAndroidCompiler by lazy { "com.google.dagger:hilt-android-compiler:${Versions.hilt}" }
+
     val hiltCompiler by lazy { "androidx.hilt:hilt-compiler:${Versions.hiltCompiler}" }
     val hiltNavigationCompose by lazy { "androidx.hilt:hilt-navigation-compose:${Versions.hiltNavigationCompose}" }
+    val navigationCompose by lazy { "androidx.navigation:navigation-compose:${Versions.navigationCompose}" }
+
     val retrofit by lazy { "com.squareup.retrofit2:retrofit:${Versions.retrofitVersion}" }
     val okhttpBom by lazy { "com.squareup.okhttp3:okhttp-bom:${Versions.okhttpBom}" }
     val okhttp by lazy { "com.squareup.okhttp3:okhttp" }
@@ -23,7 +27,7 @@ object Dependencies {
     val coroutinesAndroid by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}" }
     val coroutinesCore by lazy { "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}" }
 
-
+    val coil by lazy { "io.coil-kt:coil-compose:${Versions.coil}" }
 
 }
 

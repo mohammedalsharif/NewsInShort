@@ -34,8 +34,8 @@ class AppModule {
 
     }
 
-    @Singleton
-    @Provides
+
+
     fun provideOkhttpClient(): OkHttpClient {
         return OkHttpClient().newBuilder()
             .readTimeout(60L, TimeUnit.SECONDS)
@@ -45,8 +45,7 @@ class AppModule {
             .build()
     }
 
-    @Singleton
-    @Provides
+
     fun provideMoshi(): MoshiConverterFactory {
         return MoshiConverterFactory.create(Moshi.Builder().add(KotlinJsonAdapterFactory()).build())
     }

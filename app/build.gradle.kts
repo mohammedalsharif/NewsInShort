@@ -66,6 +66,7 @@ dependencies {
     kapt(Dependencies.hiltAndroidCompiler)
     kapt(Dependencies.hiltCompiler)
     implementation(Dependencies.hiltNavigationCompose)
+    implementation(Dependencies.navigationCompose)
     implementation(Dependencies.retrofit)
     implementation(platform(Dependencies.okhttpBom))
     implementation(Dependencies.okhttp)
@@ -74,6 +75,9 @@ dependencies {
     implementation(Dependencies.moshiConverter)
     implementation(Dependencies.coroutinesCore)
     implementation(Dependencies.coroutinesAndroid)
+    implementation(Dependencies.coil)
+
+
 
 
 }
